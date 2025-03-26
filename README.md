@@ -1,76 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net">
-  <diagram id="UseCaseDiagram" name="Page-1">
-    <mxGraphModel dx="1028" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        
-        <!-- Actor: Customer -->
-        <mxCell id="customer" value="Customer" style="shape=umlActor;fillColor=#a3c8ff;" vertex="1" parent="1">
-          <mxGeometry x="50" y="150" width="50" height="80" as="geometry" />
-        </mxCell>
+<!-- Khách hàng -->
+<mxCell id="2" value="Khách hàng" style="shape=actor" vertex="1" parent="1">
+  <mxGeometry x="100" y="200" width="50" height="80" as="geometry" />
+</mxCell>
 
-        <!-- Actor: Admin -->
-        <mxCell id="admin" value="Admin" style="shape=umlActor;fillColor=#ffaaaa;" vertex="1" parent="1">
-          <mxGeometry x="500" y="150" width="50" height="80" as="geometry" />
-        </mxCell>
+<!-- Use Case: Đăng ký -->
+<mxCell id="3" value="Đăng ký tài khoản" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="120" width="120" height="40" as="geometry" />
+</mxCell>
+<mxCell id="4" edge="1" parent="1" source="2" target="3">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
 
-        <!-- Use Cases -->
-        <mxCell id="register" value="Register" style="ellipse;fillColor=#ffffcc;" vertex="1" parent="1">
-          <mxGeometry x="200" y="100" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="login" value="Login" style="ellipse;fillColor=#ffffcc;" vertex="1" parent="1">
-          <mxGeometry x="200" y="160" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="browse" value="Browse Products" style="ellipse;fillColor=#ffffcc;" vertex="1" parent="1">
-          <mxGeometry x="200" y="220" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="order" value="Place Order" style="ellipse;fillColor=#ffffcc;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="payment" value="Make Payment" style="ellipse;fillColor=#ffffcc;" vertex="1" parent="1">
-          <mxGeometry x="200" y="340" width="120" height="40" as="geometry" />
-        </mxCell>
+<!-- Use Case: Đăng nhập -->
+<mxCell id="5" value="Đăng nhập" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="180" width="120" height="40" as="geometry" />
+</mxCell>
+<mxCell id="6" edge="1" parent="1" source="2" target="5">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
 
-        <mxCell id="manage_products" value="Manage Products" style="ellipse;fillColor=#ffcc99;" vertex="1" parent="1">
-          <mxGeometry x="350" y="100" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="manage_orders" value="Manage Orders" style="ellipse;fillColor=#ffcc99;" vertex="1" parent="1">
-          <mxGeometry x="350" y="160" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="manage_users" value="Manage Users" style="ellipse;fillColor=#ffcc99;" vertex="1" parent="1">
-          <mxGeometry x="350" y="220" width="140" height="40" as="geometry" />
-        </mxCell>
+<!-- Use Case: Duyệt sản phẩm -->
+<mxCell id="7" value="Duyệt sản phẩm" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="240" width="120" height="40" as="geometry" />
+</mxCell>
+<mxCell id="8" edge="1" parent="1" source="2" target="7">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
 
-        <!-- Connections -->
-        <mxCell id="edge1" edge="1" parent="1" source="customer" target="register">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge2" edge="1" parent="1" source="customer" target="login">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge3" edge="1" parent="1" source="customer" target="browse">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge4" edge="1" parent="1" source="customer" target="order">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge5" edge="1" parent="1" source="customer" target="payment">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+<!-- Use Case: Đặt hàng -->
+<mxCell id="9" value="Đặt hàng" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="300" width="120" height="40" as="geometry" />
+</mxCell>
+<mxCell id="10" edge="1" parent="1" source="2" target="9">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
 
-        <mxCell id="edge6" edge="1" parent="1" source="admin" target="manage_products">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge7" edge="1" parent="1" source="admin" target="manage_orders">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge8" edge="1" parent="1" source="admin" target="manage_users">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+<!-- Use Case: Thanh toán -->
+<mxCell id="11" value="Thanh toán" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="360" width="120" height="40" as="geometry" />
+</mxCell>
+<mxCell id="12" edge="1" parent="1" source="2" target="11">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
 
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+<!-- Use Case: Xem lịch sử mua hàng -->
+<mxCell id="13" value="Xem lịch sử mua hàng" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="420" width="160" height="40" as="geometry" />
+</mxCell>
+<mxCell id="14" edge="1" parent="1" source="2" target="13">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+
+<!-- Quản trị viên -->
+<mxCell id="15" value="Quản trị viên" style="shape=actor" vertex="1" parent="1">
+  <mxGeometry x="100" y="500" width="50" height="80" as="geometry" />
+</mxCell>
+
+<!-- Use Case: Quản lý sản phẩm -->
+<mxCell id="16" value="Quản lý sản phẩm" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="500" width="140" height="40" as="geometry" />
+</mxCell>
+<mxCell id="17" edge="1" parent="1" source="15" target="16">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+
+<!-- Use Case: Quản lý đơn hàng -->
+<mxCell id="18" value="Quản lý đơn hàng" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="560" width="140" height="40" as="geometry" />
+</mxCell>
+<mxCell id="19" edge="1" parent="1" source="15" target="18">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+
+<!-- Use Case: Quản lý khách hàng -->
+<mxCell id="20" value="Quản lý khách hàng" style="ellipse;whiteSpace=wrap;html=1" vertex="1" parent="1">
+  <mxGeometry x="300" y="620" width="160" height="40" as="geometry" />
+</mxCell>
+<mxCell id="21" edge="1" parent="1" source="15" target="20">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
