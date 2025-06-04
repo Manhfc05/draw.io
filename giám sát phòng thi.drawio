@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.1.3">
   <diagram name="Trang-1" id="zaw0rV3fqC96aYrkDIxD">
-    <mxGraphModel>
+    <mxGraphModel dx="1813" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Bắt đầu&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="80" as="sourcePoint" />
+            <mxPoint x="390" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Camera giám sát phòng thi&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="260" as="sourcePoint" />
+            <mxPoint x="389.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-5" value="AI Giám thị phụ trách" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="340" as="sourcePoint" />
+            <mxPoint x="389.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-9" value="Tiếp tục giám sát" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="420" as="sourcePoint" />
+            <mxPoint x="389.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-11" value="Gửi ảnh từ camera giám sát phòng thi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="500" as="sourcePoint" />
+            <mxPoint x="389.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-13" value="AI nhận thông tin cảnh báo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="540" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="580" as="sourcePoint" />
+            <mxPoint x="389.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-15" value="Hệ thống hiển thị cảnh báo&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="620" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="660" as="sourcePoint" />
+            <mxPoint x="389.5" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-17" value="Giám thị nhận yêu cầu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="700" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="740" as="sourcePoint" />
+            <mxPoint x="389.5" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lH1Pa-TakiqLgyHT9IAS-19" value="Kết thúc giám sát" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="780" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
